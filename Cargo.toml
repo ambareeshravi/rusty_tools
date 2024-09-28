@@ -1,6 +1,6 @@
 [package]
 name = "rusty_tools"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 description = "A crate with simple yet useful tools for rust"
 license = "Apache-2.0"
