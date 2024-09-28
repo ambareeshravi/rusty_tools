@@ -1,6 +1,6 @@
 use std::{fs, fmt};
-use super::colors::text_colored;
 use std::io::{self, Read};
+use super::colors::text_colored;
 
 #[derive(Debug, PartialEq)]
 pub enum DiffOp {

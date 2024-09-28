@@ -1,11 +1,11 @@
 use std::{thread::sleep, time::Duration};
-use rusty_tools::progress::track_progress;
-use rusty_tools::colors::{text_colored, print_colored, Color};
-use rusty_tools::diff::{DiffOp, diff_words, diff_lines, diff_files};
-
 use std::fs::{self, File};
 use std::io::{self, Write};
 use std::path::Path;
+
+use rusty_tools::progress::track_progress;
+use rusty_tools::colors::{text_colored, print_colored, Color};
+use rusty_tools::diff::{DiffOp, diff_words, diff_lines, diff_files};
 
 pub fn test_progress() {
     print!("\nTesting progress bar:\n");
